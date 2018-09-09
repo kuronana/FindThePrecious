@@ -1,0 +1,40 @@
+
+.card img {
+  transition: 0.8s ease;
+  opacity: 0.5;
+}
+.goldcoins {
+  position: relative;
+  bottom: 280px;
+  text-align: center;
+  font: 30px bold;
+  text-shadow: 2px 2px 10px black;
+}
+span {
+  color: #FF8C00;
+}
+.namereward {
+  position: relative;
+  bottom: 150px;
+  text-align: center;
+  font: 30px bold;
+  text-shadow: 2px 2px 10px black;
+}
+#deadreward {
+  position: relative;
+  bottom: 180px;
+  left: 23%;
+  font: 50px bold;
+  text-shadow: 2px 2px 10px black;
+}
+.card:hover img {
+  opacity: 1;
+}
+.card .namereward, .card .goldcoins, .card #deadreward {
+  transition: 0.8s ease;
+  opacity: 1;
+}
+.card:hover .namereward, .card:hover .goldcoins, .card:hover #deadreward {
+  transition: 0.8s ease;
+  opacity: 0;
+}
