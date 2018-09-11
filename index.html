@@ -9,10 +9,12 @@
 </head>
 <body class="container-fluid">
     <header class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <p class="navbar-brand mx-auto" style="width: 200px;">FindThePrecious.com</p>
-
+        <nav class="navbar navbar-expand-lg navbar-light">
+            
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-brand">
+                    <img src="intfinal/logo.png" class="d-inline-block align-top" alt="title">
+                </div>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link mx-auto" href="#wanted" style="width: 200px;">Fellows<span class="sr-only">(current)</span></a>
@@ -46,24 +48,25 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner carou">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://wallpapercave.com/wp/wp2650578.jpg" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Dangerous fellowship try to destroy the ring</h2>
-                        <h3>Orcs, Goblins, Balrogs, protect you master Sauron !</h3>
+                    <img class="d-block w-100" src="intfinal/vador.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block caroutxt">
+                        <h2>Sauron is a very good bro,</h2>
+                        <h3>Please help him to find his ring !    -d.v</h3>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://vignette.wikia.nocookie.net/seigneur-des-anneaux/images/b/b4/Main_Noire.jpg/revision/latest?cb=20180308235511&path-prefix=fr" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>because I am worth it</h2>
+                    <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Cosplayer_of_Kyosuke_Shikijo%2C_Hentai_Kamen_at_CWT42_20160213e.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block caroutxt">
+                        <h2 style="color: black">Dangerous fellowship try to destroy the ring</h2>
+                        <h3 style="color: black">Orcs, Goblins, Balrogs, protect you master Sauron !</h3>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://vignette.wikia.nocookie.net/villains/images/0/0f/Middle_Earth_Shadow_of_War_Sauron_Wallpaper.jpg/revision/latest?cb=20180428142413" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>kawaii ja nai no ?</h2>
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/1228268/pexels-photo-1228268.png?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block caroutxt">
+                        <h2>Subarashii desu yo ne !?</h2>
                     </div>
                 </div>
                 <div>
@@ -81,40 +84,50 @@
         </div>
     </div>
         <section id="wanted">
-            <h2 class="row no-gutters">Fellows wanted dead</h2>
-            <p class="row no-gutters">(or alive if you want to eat them later)</p>
-            <p>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="false" aria-expanded="false" aria-controls="collapseExample">Most wanted</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="false" aria-expanded="false" aria-controls="collapseExample">Most dangerous</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="false" aria-expanded="false" aria-controls="collapseExample">Already captured</button>
-            </p>
+            <h2 class="row"><span>S</span>Fellows wanted dead (or alive if you want to eat them later)<span>S</span></h2>
+            <p class="row no-gutters"></p>
+            <ul class="row mostnav">
+                <li>
+                    <a href=""><span>b</span>Most wanted<span>b</span></a>
+                </li>
+                <li>
+                    <a href=""><span>b</span>Most dangerous<span>b</span></a>
+                </li>
+                <li>
+                    <a href=""><span>b</span>Already captured<span>b</span></a>
+                </li>
+            </ul>
             <div class="collapse" id="collapseExample">
             </div>
             <div class="row" id="mostwanted">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://i.pinimg.com/236x/b2/22/25/b22225154aaf0f19be8c605384bcfadf--lord-of-the-rings-the-lord.jpg" alt="un sorcier cosplayer">
+                    <div>    
+                        <img class="card-img-top" src="intfinal/gandalf.png" alt="un sorcier cosplayer">
+                        <p class=" goldcoins">Reward <br/><span>1000</span> gold coins</p>
+                        <p class=" namereward">Gandalf</p>
+                    </div>
                     <div class="card-body">
-                        <p class=" goldcoins">Reward <span>1000</span> gold coins</p>
-                        <p class=" namereward">Gandalf De Kitty</p>
-                        <p class="card-text racereward">The Wizard </p>
-                        <p>Blablablablabla, blablabla,<br/> blablablablablabla!</p>
+                        <p class="card-text description">A very dangerous wizard, balrog killer...</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://cinemaneuf.no/wp-content/uploads/2013/01/The-Hobbit-HERO-2.jpeg" alt="Card image cap" height="286">
+                    <div>
+                        <img class="card-img-top" src="intfinal/aragorn.png" alt="ara-chans">
+                        <p class="goldcoins">Rewards <br/><span>250</span> gold coins</p>
+                        <p class="namereward">Aragorn</p>
+                    </div>
                     <div class="card-body">
-                        <p id="deadreward">DEAD</p>
-                        <p id="racedead">Hobbit #3</p>
-                        <p id="blabladead">Blablablablabla, blablabla,<br/> blablablablablabla!</p>
+                        <p class="card-text description">Sauron's finger says him his sword is dangerous...</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="http://storage.competir.com/post/tolkien-nacimiento/Images/enano.jpg" alt="Ventra pattes">
+                    <div>
+                        <img class="card-img-top" src="intfinal/gimli.png" alt="Ventra pattes">
+                        <p id="deadreward" style="color: #FF8C00">dead</p>
+                        <p class="namereward" style="text-decoration: line-through;">Gimli</p>
+                    </div>
                     <div class="card-body">
-                        <p class="goldcoins ">Rewards <span>250</span> gold coins</p>
-                        <p class="namereward ">Ventra Patte</p>
-                        <p class="racereward ">Yummy Dwarf </p>
-                        <p class="card-text">Blablablablabla, blablabla,<br/> blablablablablabla!</p>
+                        <p class="card-text description">A dwarf, wich a beard and an axe...</p>
                     </div>
                 </div>
             </div>

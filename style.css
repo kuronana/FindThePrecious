@@ -1,31 +1,141 @@
+@font-face {
+  font-family: aniron;
+  src: url(aniron/anirb___.ttf);
+}
+@font-face {
+  font-family: txt;
+  src: url(txt/txt.ttf);
+}
+@font-face {
+  font-family: symb;
+  src: url(symb/tngani.ttf);
+}
+.txt {
+  font-family: txt;
+}
+body {
+  background-image: url(intfinal/light.png);
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!head!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+header {
+  background-color: #D2691E;
+  text-align: center;
+  font-family: aniron, serif;
+}
+header li {
+  border-bottom: 5px solid #D2691E;
+  transition: 1s ease;
+}
+header li:hover {
+  border-bottom: 5px solid white;
+  margin-bottom: 10px;
+}
+.carou{
+  margin-top: -155px;
+  position: relative;
+}
+.caroutxt {
+  bottom: 40%;
+  font-family: txt;
+}
+#felhead h2 {
+  font-size: 400%;
+  text-align: left;
+}
+#felhead h3 {
+  font-size: 300%;
+  text-align: left;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Fellows!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#wanted h2 {
+  font-family: aniron;
+  font-size: 170%;
+  position: relative;
+  left: 10%;
+  margin-top: 1%;
+}
+#wanted h2 span, #wanted a span {
+  font-family: symb;
+}
+.mostnav{
+  list-style-type: none;
+  position: relative;
+  left: 10%;
+  font-family: aniron;
+}
+.mostnav li {
+  padding-left: 10%;
+}
+.mostnav a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.5s ease;
+  border-bottom: 0px solid #D2691E;
+}
+.mostnav a:hover {
+  color: #D2691E;
+  border-bottom: 2px solid #D2691E;
+}
+.mostnav a span {
+  opacity: 0;
+  transition: 1s ease;
+}
+.mostnav a:hover span {
+  opacity: 1;
+}
+#mostwanted {
+  position: relative;
+  left: 22%;
+}
+#mostwanted p {
+  color: white;
+}
+.card {
+  margin: 1%;
+  background-image: url(intfinal/dark.png);
 
+  border: 5px solid black;
+}
 .card img {
   transition: 0.8s ease;
   opacity: 0.5;
 }
 .goldcoins {
-  position: relative;
-  bottom: 280px;
+  position: absolute;
+  bottom: 65%;
+  left: 20%;
   text-align: center;
   font: 30px bold;
   text-shadow: 2px 2px 10px black;
+  font-family: txt;
+  background-color: white;
+  border-radius: 5% 5%;
+  box-shadow: 1px 1px 20px white;
 }
 span {
   color: #FF8C00;
 }
 .namereward {
-  position: relative;
-  bottom: 150px;
+  position: absolute;
+  bottom: 30%;
+  left: 35%;
   text-align: center;
   font: 30px bold;
   text-shadow: 2px 2px 10px black;
+  font-family: txt;
+  font-size: 300%;
 }
 #deadreward {
-  position: relative;
-  bottom: 180px;
-  left: 23%;
+  position: absolute;
+  bottom: 70%;
+  left: 33%;
   font: 50px bold;
   text-shadow: 2px 2px 10px black;
+  font-family: txt;
+}
+.description {
+  font-family: txt;
+  font-size: 140%;
 }
 .card:hover img {
   opacity: 1;
